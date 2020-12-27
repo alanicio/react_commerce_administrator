@@ -8,18 +8,18 @@ const Login = () => {
         <form>
 
           <FormRow type="text">
-            <label for="user">Usuario:</label>
+            <label htmlFor="user">Usuario:</label>
             <input id="user" type="text" placeholder="Usuario@mail.com" />
           </FormRow>
 
           <FormRow type="text">
-            <label for="password">Contraseña</label>
+            <label htmlFor="password">Contraseña</label>
             <input  id="password" type="password" />
           </FormRow>
 
           <FormRow type="checkbox">
             <input id="remember_data" type="checkbox" />
-            <label for="remember_data">Recordar datos</label>
+            <label htmlFor="remember_data">Recordar datos</label>
           </FormRow>
 
           <FormRow type="button">

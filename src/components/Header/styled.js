@@ -45,4 +45,9 @@ export const NavDropdown = styled.div`
   &:hover ul, ul:hover ul {
     display: block;
   }
+
+  a {
+    color: inherit; 
+    text-decoration: inherit;
+  }
 `;

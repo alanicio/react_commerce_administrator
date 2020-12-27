@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar, NavDropdown } from './styled'
 
 const Header = () => {
@@ -9,8 +10,8 @@ const Header = () => {
           Productos <i className="fas fa-caret-down"></i>
         </button>
         <ul>
-          <li>Agregar Producto</li>
-          <li>Mostrar Productos</li>
+          <li><Link to="/productos">Mostrar Productos</Link></li>
+          <li><Link to="/productos/nuevo">Agregar Producto</Link></li>
         </ul>
       </NavDropdown>
 

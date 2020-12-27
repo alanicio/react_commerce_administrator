@@ -18,7 +18,7 @@ export const Card = styled.div`
 box-shadow: 0px 0px 5px 1px rgba(255,255,255,1);
 `;
 
-export const FormRow = styled.form`
+export const FormRow = styled.div`
   display: block;
   padding-bottom: 1rem;
 
