@@ -34,7 +34,6 @@ export const NavDropdown = styled.div`
 
   li {
     border-radius: 4px;
-    padding: 1rem;
     &:hover {
       background-color: black;
       color: white;
@@ -49,5 +48,7 @@ export const NavDropdown = styled.div`
   a {
     color: inherit; 
     text-decoration: inherit;
+    display: block;
+    padding: 1rem;
   }
 `;
