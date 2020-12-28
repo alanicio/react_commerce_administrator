@@ -10,9 +10,15 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/login" component={Login} />
-        <Route exact path="/" render={ () => <Layout></Layout> } />
-        <Route exact path="/productos" render={ () => <Layout><Products/></Layout> } />
-        <Route exact path="/productos/nuevo" render={ () => <Layout><AddProduct/></Layout> } />
+
+        <Route>
+          <Layout>
+            <Switch>
+              <Route exact path="/productos" component={Products} /> 
+              <Route exact path="/productos/nuevo" component={AddProduct} />
+            </Switch>            
+          </Layout>
+        </Route>
       </Switch>
     </BrowserRouter>
   );
