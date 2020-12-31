@@ -4,12 +4,20 @@ import { Row } from "./styled";
 const AddProduct = () => {
   return (
     <form>
+
       <Row>
         <div>
           <label htmlFor="name">Producto:</label>
           <input id="name" name="name" type="text" />
         </div>
 
+        <div>
+          <label htmlFor="priceByUnit">Precio c/u</label>
+          <input id="priceByUnit" name="priceByUnit" type="number" />
+        </div>
+      </Row>
+
+      <Row>        
         <div>          
           <label htmlFor="quantity">Cantidad:</label>
           <input id="quantity" name="quantity" type="number" />
@@ -28,7 +36,7 @@ const AddProduct = () => {
 
       <Row>
         <div>
-          <label htmlFor="description">Descripción</label>
+          <label htmlFor="description">Descripción:</label>
           <textarea id="description" name="description" cols="40" rows="4"></textarea>
         </div>
       </Row>

@@ -23,19 +23,12 @@ export const Row = styled.div`
 
   @media(max-width: 980px) {
     width: 400px;
-    padding: 1rem 0;
-
-    input {
-      margin-top: 1rem;
-    }
+    padding: 0;
   }
 
   @media(max-width: 400px) {
     width: 300px;
-    padding: 1rem 0;
+    padding: 0;
 
-    input {
-      margin-bottom: 1rem;
-    }
   }
 `;

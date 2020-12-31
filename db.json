@@ -1,0 +1,21 @@
+{
+  "products" : [
+    {
+      "id": 1,
+      "name": "Aguja",
+      "priceByUnit": 1,
+      "quantity": 200,
+      "unit": "agujas",
+      "description": "Agujas de coser"
+    },
+
+    {
+      "id": 2,
+      "name": "Listón rojo",
+      "priceByUnit": 3,
+      "quantity": 20,
+      "unit": "metros",
+      "description": "Listón utilizado para coser o algo así"
+    }
+  ]
+}
