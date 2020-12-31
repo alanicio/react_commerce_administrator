@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Login from './components/Login'
 import Layout from './components/Layout';
 import Products from './components/Products';
@@ -13,9 +13,10 @@ function App() {
 
         <Route>
           <Layout>
-            <Switch>
+            <Switch>            
               <Route exact path="/productos" component={Products} /> 
               <Route exact path="/productos/nuevo" component={AddProduct} />
+              <Redirect to="/" />
             </Switch>            
           </Layout>
         </Route>
